@@ -1,0 +1,33 @@
+Set up instructions:
+Local:
+	● cd /Users/Desktop/Python
+		○ Create Python Virtual Environment (first time only)
+			■ Run in terminal (in specified Python folder): python3 -m venv .venv
+			■ Run in terminal (in specified Python folder): source .venv/bin/activate
+				● You’ll notice “(.venv)” as your folder location in your terminal
+for the next command onward…
+			■ Run in the same terminal (both commands at the same time is ok):
+				● pip install --upgrade pip
+				  pip install black flake8 isort pytest ipython
+			■ Create first Python project by running this in terminal:
+				● vim HW5-maze.py
+			■ In the VIM editor, paste the HW5-Maze.py code text (or … )
+			■ ESC to leave the Insert mode in VIM, and type “:wqa” to write, quit, all
+			■ Run the program in the terminal:
+				● Python HW5-maze.py
+
+	○ Running the program:
+		■ Source .venv/bin/activate in the Python folder
+		■ Install NumPy in Python folder
+			● Run in the terminal after starting .venv:
+				○ Pip install numpy
+
+VIM User, not new to using python via terminal:
+	● In your Python folder, place my file HW5-maze-attempt-1.py inside.
+	● Start the Python environment by running this in the terminal:
+		○ Source .venv/bin/activate
+	● Then run this in the terminal to run the program:
+		○ Python HW5-maze-attempt-1.py
+	● You should then see a user menu in the terminal that indicates the program has
+started for you. Try testing the 3x3, 5x5 and 1000 maze count by selecting the
+appropriate option in the user-driven menu.
