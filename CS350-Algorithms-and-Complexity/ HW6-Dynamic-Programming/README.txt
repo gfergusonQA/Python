@@ -1,3 +1,15 @@
+This project requires Python 3 and the following libraries:
+- numpy
+
+To this (clean Markdown):
+
+```md
+Install dependencies with:
+
+```bash
+pip install -r requirements.txt
+
+
 ## Gina Ferguson
 ## Assignment 6: Dynamic Programming
 ## Code Language: Python
