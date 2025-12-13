@@ -9,7 +9,6 @@ Install dependencies with:
 ```bash
 pip install -r requirements.txt
 
-
 ## Gina Ferguson
 ## Assignment 6: Dynamic Programming
 ## Code Language: Python
