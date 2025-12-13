@@ -1,0 +1,57 @@
+```SAMPLE RUN PREVIEW
+# This is what the user-driven menu for the Palindrome checker program looks like, as far as terminal output goes :)
+
+Welcome to Gina's Longest Palindrome Substring Finder!
+1) Run built-in 5 example tests
+2) Enter your own string
+3) Run runtime tests (increasing input lengths
+4) Quit
+
+Enter choice (1 - 4): 1
+
+Running 5 example tests:
+ Input: 'AGCGT'    Longest Palindromic Substring length: 3
+ Input: 'abba'     Longest Palindromic Substring length: 4
+ Input: 'banana'   Longest Palindromic Substring length: 5
+ Input: 'racecar'  Longest Palindromic Substring length: 7
+ Input: 'abcde'    Longest Palindromic Substring length: 1
+
+Welcome to Gina's Longest Palindrome Substring Finder!
+1) Run built-in 5 example tests
+2) Enter your own string
+3) Run runtime tests (increasing input lengths
+4) Quit
+
+Enter choice (1 - 4): 2
+
+Enter a string: WOWWOOOWW
+Longest palindromic substring length in 'WOWWOOOWW' is: 7
+
+Welcome to Gina's Longest Palindrome Substring Finder!
+1) Run built-in 5 example tests
+2) Enter your own string
+3) Run runtime tests (increasing input lengths
+4) Quit
+
+Enter choice (1 - 4): 3
+
+Runtime Test for 'Dynamic Programming'
+-----------------------------------------
+String length = 10         took 0.00002027 seconds.
+String length = 50         took 0.00017810 seconds.
+String length = 100        took 0.00056767 seconds.
+String length = 200        took 0.00236845 seconds.
+String length = 500        took 0.01383352 seconds.
+String length = 1000       took 0.05748582 seconds.
+String length = 2000       took 0.25280833 seconds.
+String length = 5000       took 1.54214478 seconds.
+String length = 10000      took 6.56953287 seconds.
+
+Welcome to Gina's Longest Palindrome Substring Finder!
+1) Run built-in 5 example tests
+2) Enter your own string
+3) Run runtime tests (increasing input lengths
+4) Quit
+
+Enter choice (1 - 4): 4
+Thanks and goodbye!
